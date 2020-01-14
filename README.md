@@ -1,28 +1,52 @@
-# Unity2019114f1-2D-Template
+# home-WebGL-movingBall-cs-kilian
 
 ### Project description: 
-Introduction/Project summary 
+This Project was intendet as an Unity Github and C# Exercise.
+It contains a Button which triggers a public function for setting a Ball
+randomly to 4 predefined positions. 
+That was implemented using the c# Function Random.Range() and a SerializedField 
+GameObject Array in which the predefined positions are saved.
+
+To prevent that the Ball ist set to the same position in a row twice or more, i
+wrote a while loop which repeats the Random.Range() Function as long as a new
+position is found. Which might not be the most efficient way 
+but for a Project that size it shouldn't be problem.
+
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+
+* Windows Version 10.0.17134 Build 17134
+* VS Code 1.41.1
+* Unity 2019.1.14f1
+* Scripting Runtime Version: 4.X
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+WebGL
 
 ### Visuals: 
-Screenshots (concept and experience), Video
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
+WebGL needs to be installed. 
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Github Template: 3ahmnm-htlsbg/Unity2019114f1-2D-Template\
+Original Readme: https://github.com/3ahmnm-htlsbg/home-WebGl-cs-smeerws/blob/master/README.md
 
 ### Project state: 
-incl. progress in percent
+incl. progress in percent 
+100%
 
 ### Limitations: 
 
+None
+
 ### Lessons Learned: 
 
-Copyright by you :)
+* How to use Random Numbers
+* using  GameObject.tranform.position 
+* Build for WebGL
+* Host with Guthub Pages
+
+THIS IS KILIANREISINGERS README, COPIED BY KA
+Copyright by STIENITZKAMAXIMILIAN
+
